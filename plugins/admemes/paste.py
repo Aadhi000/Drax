@@ -44,7 +44,7 @@ async def p_paste(message, extension=None):
     
 @Client.on_message(filters.command(["tgpaste", "pasty", "paste"]))
 async def pasty(client, message):
-    pablo = await message.reply_text("`Please wait...`")
+    pablo = await message.reply_text("`𝐏𝐚𝐬𝐭𝐢𝐧𝐠 𝐈𝐧𝐟𝐨 𝐖𝐚𝐢𝐭...`")
     tex_t = message.text
     message_s = tex_t
     if not tex_t:
@@ -64,7 +64,7 @@ async def pasty(client, message):
     p_link = x["url"]
     p_raw = x["raw"]
     
-    pasted = f"**Successfully Paste to Pasty**\n\n**Link:** • [Click here]({p_link})\n\n**Raw Link:** • [Click here]({p_raw})"
+    pasted = f"**Successfully Paste to Pasty**\n\n**Link:** ✮ [𝐂𝐥𝐢𝐜𝐤 𝐇𝐞𝐫𝐞]({p_link})\n\n**Raw Link:** ✮ [𝐂𝐥𝐢𝐜𝐤 𝐇𝐞𝐫𝐞]({p_raw})"
     await pablo.edit(pasted, disable_web_page_preview=True)
 
 
