@@ -25,7 +25,7 @@ def a(client, message):
     for i in message.command[1:]:
         query += ' ' + str(i)
     print(query)
-    m = message.reply('`🎻𝑭𝒊𝒏𝒅𝒊𝒏𝒈 𝒚𝒐𝒖𝒓 𝒔𝒐𝒏𝒈🎶.....`')
+    m = message.reply('`𝐒𝐞𝐚𝐫𝐜𝐡𝐢𝐧𝐠 𝐘𝐨𝐮𝐫 𝐒𝐨𝐧𝐠.....`')
     ydl_opts = {"format": "bestaudio[ext=m4a]"}
     try:
         results = []
@@ -64,13 +64,13 @@ def a(client, message):
         )
         print(str(e))
         return
-    m.edit("`𝑼𝒑𝒍𝒐𝒂𝒅𝒊𝒏𝒈🎻....𝒑𝒍𝒆𝒂𝒔𝒆 𝒘𝒂𝒊𝒕💕`")
+    m.edit("`𝐔𝐩𝐥𝐨𝐚𝐝𝐢𝐧𝐠... 𝐖𝐚𝐢𝐭 𝐁𝐫𝐨..`")
     try:
         with youtube_dl.YoutubeDL(ydl_opts) as ydl:
             info_dict = ydl.extract_info(link, download=False)
             audio_file = ydl.prepare_filename(info_dict)
             ydl.process_info(info_dict)
-        rep = f'🎹 <b>𝑻𝒊𝒕𝒍𝒆:</b> <a href="{link}">{title}</a>\n🎙️ <b>𝑫𝒖𝒓𝒂𝒕𝒊𝒐𝒏:</b> <code>{duration}</code>\n🎵 <b>𝑽𝒊𝒆𝒘𝒔:</b> <code>{views}</code>\n🎻 <b>𝑹𝒆𝒒𝒖𝒆𝒔𝒕𝒆𝒅 𝒃𝒚:</b> {message.from_user.mention()} \n🎶 <b>𝑼𝒑𝒍𝒐𝒂𝒅𝒆𝒅 𝑩𝒚: @NewOTTmoviesAll</b> 👑'
+        rep = f'🎶 <b>𝐓𝐢𝐭𝐥𝐞:</b> <a href="{link}">{title}</a>\n⏱️ <b>𝐃𝐮𝐫𝐚𝐭𝐢𝐨𝐧:</b> <code>{duration}</code>\n✨ <b>𝐕𝐢𝐞𝐰𝐬:</b> <code>{views}</code>\n♻️ <b>𝐑𝐞𝐪𝐮𝐞𝐬𝐭𝐞𝐝 𝐁𝐲:</b> {message.from_user.mention()} \n👩🏻‍💻 <b>𝑼𝒑𝒍𝒐𝒂𝒅𝒆𝒅 𝑩𝒚: @Movies_World02</b>'
         secmul, dur, dur_arr = 1, 0, duration.split(':')
         for i in range(len(dur_arr)-1, -1, -1):
             dur += (int(dur_arr[i]) * secmul)
@@ -79,7 +79,7 @@ def a(client, message):
         m.delete()
         message.delete()
     except Exception as e:
-        m.edit('**𝐀𝐧 𝐄𝐫𝐫𝐨𝐫 𝐎𝐜𝐜𝐮𝐫𝐞𝐝. 𝐏𝐥𝐞𝐚𝐬𝐞 𝐑𝐞𝐩𝐨𝐫𝐭 𝐓𝐡𝐢𝐬 𝐓𝐨 @DARKWEBLOAD !!**')
+        m.edit('**𝐀𝐧 𝐄𝐫𝐫𝐨𝐫 𝐎𝐜𝐜𝐮𝐫𝐞𝐝. 𝐏𝐥𝐞𝐚𝐬𝐞 𝐈𝐧𝐟𝐨𝐫𝐦 ›› @BKC0001 !!**')
         print(e)
     try:
         os.remove(audio_file)
