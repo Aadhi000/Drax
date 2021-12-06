@@ -7,7 +7,7 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 API = "https://api.sumanjay.cf/covid/?country="
 
-BUTTONS = InlineKeyboardMarkup([[InlineKeyboardButton('⚙ ᴊᴏɪɴ ᴏᴜʀ ᴄʜᴀɴɴᴇʟ ⚙', url='https://t.me/joinchat/FYBCIcMfr0AyOTFl')]])
+BUTTONS = InlineKeyboardMarkup([[InlineKeyboardButton('𝐉𝐨𝐢𝐧 𝐎𝐮𝐫 𝐆𝐫𝐨𝐮𝐩', url='https://t.me/Movies_World02')]])
 
 @Client.on_message(filters.command("covid"))
 async def reply_info(client, message):
@@ -34,16 +34,17 @@ def covid_info(country_name):
         latitude = info['latitude']
         longitude = info['longitude']
         recovered = info['recovered']
-        covid_info = f"""--**Covid 19 Information**--
-Country : `{country}`
-Actived : `{active}`
-Confirmed : `{confirmed}`
-Deaths : `{deaths}`
-ID : `{info_id}`
-Last Update : `{last_update}`
-Latitude : `{latitude}`
-Longitude : `{longitude}`
-Recovered : `{recovered}`"""
+        covid_info = f"""--**𝗖𝗼𝘃𝗶𝗱 𝗜𝗻𝗳𝗼𝗿𝗺𝗮𝘁𝗶𝗼𝗻**--
+
+𝐂𝐨𝐮𝐧𝐭𝐫𝐲 : `{country}`
+𝐀𝐜𝐭𝐢𝐯𝐞 : `{active}`
+𝐂𝐨𝐧𝐟𝐢𝐫𝐦𝐞𝐝 : `{confirmed}`
+𝐃𝐞𝐚𝐭𝐡𝐬 : `{deaths}`
+𝐈𝐃 : `{info_id}`
+𝐋𝐚𝐬𝐭 𝐔𝐩𝐝𝐚𝐭𝐞 : `{last_update}`
+𝐋𝐚𝐭𝐢𝐭𝐮𝐝𝐞 : `{latitude}`
+𝐋𝐨𝐧𝐠𝐢𝐭𝐮𝐝𝐞 : `{longitude}`
+𝐑𝐞𝐜𝐨𝐯𝐞𝐫𝐞𝐝 : `{recovered}`"""
         return covid_info
     except Exception as error:
         return error
