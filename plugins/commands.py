@@ -18,10 +18,10 @@ async def start(client, message):
     if message.chat.type in ['group', 'supergroup']:
         buttons = [
             [
-                InlineKeyboardButton('ᴄʜᴀɴɴᴀʟ', url='https://t.me/joinchat/FYBCIcMfr0AyOTFl')
+                InlineKeyboardButton('𝗖𝗵𝗮𝗻𝗻𝗲𝗹', url='https://t.me/Minnal_Murali2021HD')
             ],
             [
-                InlineKeyboardButton('𝙷𝙴𝙻𝙿', url=f"https://t.me/{temp.U_NAME}?start=help"),
+                InlineKeyboardButton('𝗛𝗲𝗹𝗽', url=f"https://t.me/{temp.U_NAME}?start=help"),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -39,8 +39,8 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('᯽ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᯽', url='http://t.me/DWL_Auto_Filter_bot?startgroup=true')
             ],[
-            InlineKeyboardButton('ɢʀᴏᴜᴘ ❀', url='https://t.me/cinemahubmoviesS'),
-            InlineKeyboardButton('ᴄʜᴀɴɴᴀʟ ❀', url='https://t.me/joinchat/FYBCIcMfr0AyOTFl')
+            InlineKeyboardButton('ɢʀᴏᴜᴘ ❀', url='https://t.me/Movies_World02'),
+            InlineKeyboardButton('ᴄʜᴀɴɴᴀʟ ❀', url='https://t.me/Minnal_Murali2021HD')
             ],[
             InlineKeyboardButton('ʜᴇʟᴘ ✪', callback_data='help'),
             InlineKeyboardButton('ᴀʙᴏᴜᴛ ✪', callback_data='about')
@@ -71,7 +71,7 @@ async def start(client, message):
             btn.append([InlineKeyboardButton("𝚃𝚁𝚈 𝙰𝙶𝙰𝙸𝙽", callback_data=f"checksub#{message.command[1]}")])
         await client.send_message(
             chat_id=message.from_user.id,
-            text="**Please Join My Updates Channel to use this Bot!**",
+            text="**𝗣𝗹𝗲𝗮𝘀𝗲 𝗝𝗼𝗶𝗻 𝗠𝘆 𝗚𝗿𝗼𝘂𝗽 𝗧𝗼 𝗨𝘀𝗲 𝗧𝗵𝗶𝘀 𝗕𝗼𝘁!**",
             reply_markup=InlineKeyboardMarkup(btn),
             parse_mode="markdown"
             )
@@ -80,8 +80,8 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('᯽ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᯽', url='http://t.me/DWL_Auto_Filter_bot?startgroup=true')
             ],[
-            InlineKeyboardButton('ɢʀᴏᴜᴘ ❀', url='https://t.me/cinemahubmoviesS'),
-            InlineKeyboardButton('ᴄʜᴀɴɴᴀʟ ❀', url='https://t.me/joinchat/FYBCIcMfr0AyOTFl')
+            InlineKeyboardButton('ɢʀᴏᴜᴘ ❀', url='https://t.me/Movies_World02'),
+            InlineKeyboardButton('ᴄʜᴀɴɴᴀʟ ❀', url='https://t.me/Minnal_Murali2021HD')
             ],[
             InlineKeyboardButton('ʜᴇʟᴘ ✪', callback_data='help'),
             InlineKeyboardButton('ᴀʙᴏᴜᴛ ✪', callback_data='about')
@@ -161,7 +161,7 @@ async def delete(bot, message):
     """Delete file from database"""
     reply = message.reply_to_message
     if reply and reply.media:
-        msg = await message.reply("Processing...⏳", quote=True)
+        msg = await message.reply("𝗣𝗿𝗼𝗰𝗲𝘀𝘀𝗶𝗻𝗴...⏳", quote=True)
     else:
         await message.reply('Reply to file with /delete which you want to delete', quote=True)
         return
@@ -193,12 +193,12 @@ async def delete_all_index(bot, message):
             [
                 [
                     InlineKeyboardButton(
-                        text="YES", callback_data="autofilter_delete"
+                        text="𝗬𝗘𝗦", callback_data="autofilter_delete"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        text="CANCEL", callback_data="close_data"
+                        text="𝗖𝗔𝗡𝗖𝗘𝗟", callback_data="close_data"
                     )
                 ],
             ]
