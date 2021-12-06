@@ -46,7 +46,7 @@ async def telegraph(client, message):
                     InlineKeyboardButton(text="𝐎𝐩𝐞𝐧 𝐋𝐢𝐧𝐤", url=f"https://telegra.ph{response[0]}"),
                     InlineKeyboardButton(text="𝐒𝐡𝐚𝐫𝐞 𝐋𝐢𝐧𝐤", url=f"https://telegram.me/share/url?url=https://telegra.ph{response[0]}")
                 ],
-                [InlineKeyboardButton(text="𝐂𝐡𝐚𝐧𝐧𝐞𝐥", url='https://t.me/Minnal_Murali2021HD')
+                [InlineKeyboardButton(text="𝐂𝐡𝐚𝐧𝐧𝐞𝐥", url='https://t.me/Minnal_Murali2021HD')]
             ]
         )
     )
