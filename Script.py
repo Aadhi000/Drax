@@ -1,7 +1,7 @@
 class script(object):
-    START_TXT = """𝒉𝒆𝒍𝒍𝒐 {},
+    START_TXT = """𝙷𝙴𝚈 {},
 
-𝑰𝒂𝒎 𝑨 𝑺𝒊𝒎𝒑𝒍𝒆 𝑨𝒖𝒕𝒐 𝑭𝒊𝒍𝒕𝒆𝒓 + 𝑴𝒐𝒗𝒊𝒆 𝑺𝒆𝒂𝒓𝒄𝒉 + 𝑴𝒂𝒏𝒖𝒂𝒍 𝑭𝒊𝒍𝒕𝒆𝒓 𝑩𝒐𝒕. 𝑰 𝑪𝒂𝒏 𝑷𝒓𝒐𝒗𝒊𝒅𝒆 𝑴𝒐𝒗𝒊𝒆𝒔 𝑰𝒏 𝑻𝒆𝒍𝒆𝒈𝒓𝒂𝒎 𝑮𝒓𝒐𝒖𝒑𝒔. 𝑰 𝑪𝒂𝒏 𝑨𝒍𝒔𝒐 𝑨𝒅𝒅 𝑭𝒊𝒍𝒕𝒆𝒓𝒔 𝑰𝒏 𝑻𝒆𝒍𝒆𝒈𝒓𝒂𝒎 𝑮𝒓𝒐𝒖𝒑𝒔.  𝑱𝒖𝒔𝒕 𝑨𝒅𝒅 𝑴𝒆 𝑻𝒐 𝒀𝒐𝒖𝒓 𝑮𝒓𝒐𝒖𝒑 𝑨𝒏𝒅 𝑬𝒏𝒋𝒐𝒚 🥰
+𝙸𝙰𝙼 𝙰 𝚂𝙸𝙼𝙿𝙻𝙴 𝙰𝚄𝚃𝙾 𝙵𝙸𝙻𝚃𝙴𝚁 + 𝙼𝙾𝚅𝙸𝙴 𝚂𝙴𝙰𝚁𝙲𝙷 + 𝙼𝙰𝙽𝚄𝙴𝙻 𝙵𝙸𝙻𝚃𝙴𝚁 𝙱𝙾𝚃. 𝙸 𝙲𝙰𝙽 𝙿𝚁𝙾𝚅𝙸𝙳𝙴 𝙼𝙾𝚅𝙸𝙴𝚂 𝙸𝙽 𝚃𝙴𝙻𝙴𝙶𝚁𝙰𝙼 𝙶𝚁𝙾𝚄𝙿𝚂. 𝙹𝚄𝚂𝚃 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 𝙰𝙽𝙳 𝙴𝙽𝙹𝙾𝚈 🥰🌹
 
 𝙈𝙖𝙞𝙣𝙩𝙖𝙣𝙚𝙙 𝙗𝙮:<a href="https://t.me/DARKWEBLOAD">Dᴀʀᴋ ᴡᴇʙʟᴏᴀᴅ🇮🇳</a>
 """
@@ -12,21 +12,21 @@ class script(object):
 ❥︎❥︎❥︎❥︎❥︎❥︎❥︎❥︎❥︎❥︎❥︎❥︎❥︎❥︎❥︎❥︎❥︎❥︎❥︎❥︎❥︎❥︎❥︎❥︎
 ╔══════════════════❍
 ║╭━━━━━━━━━━━━━━━➣ 
-║➠ 𝙼𝚈 𝙽𝙰𝙼𝙴 - <a href="http://t.me/DWL_Auto_Filter_bot"> 𝒔𝒂𝒎𝒂𝒏𝒕𝒉𝒂</a>
-║➠ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁 - <a href="https://t.me/DARKWEBLOAD">Dᴀʀᴋ ᴡᴇʙʟᴏᴀᴅ🇮🇳</a>
-║➠ 𝙲𝚁𝙴𝙳𝙸𝚃𝚂 - <a href="https://t.me/DARKWEBLOAD">DᴡL</a> 
-║➠ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴 - ᴘʏʀᴏɢʀᴀᴍ
-║➠ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈 - ᴘʏᴛʜᴏɴ 3
-║➠ 𝙲𝙻𝙾𝙽𝙴𝙳 𝙵𝚁𝙾𝙼 - ᴍᴏɴɢᴏ ᴅʙ
-║➠ 𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴 -  ʜᴇʀᴏᴋᴜ
-║➠ 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂 - ᴠ1.0.1 [ ʙᴇᴛᴀ ]
+║✮ 𝙼𝚈 𝙽𝙰𝙼𝙴 ➛ <a href="http://t.me/@Devil0Bot_Bot"> ᗩᒍᗩ᙭</a>
+ ✮ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁 ➛ <a href="https://t.me/@BKC0001">𝙰𝙰𝙳𝙷𝙸</a>
+ ✮ 𝙲𝚁𝙴𝙳𝙸𝚃𝚂 ➛ <a href="https://t.me/@BKC0001">𝙰𝙰𝙳𝙷𝙸</a> 
+ ✮ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴 ➛ ᴘʏʀᴏɢʀᴀᴍ
+ ✮ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈 ➛ ᴘʏᴛʜᴏɴ 3
+ ✮ 𝙲𝙻𝙾𝙽𝙴𝙳 𝙵𝚁𝙾𝙼 ➛ ᴍᴏɴɢᴏ ᴅʙ
+ ✮ 𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴 ➛  ʜᴇʀᴏᴋᴜ
+ ✮ 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂 ➛ ᴠ1.0.1 [ ʙᴇᴛᴀ ]
 ║╰━━━━━━━━━━━━━━━➣ ╚══════════════════❍"""
     SOURCE_TXT = """<b>NOTE:</b>
 - 𝑰 𝒂𝒎  𝒏𝒐𝒕 𝒐𝒑𝒆𝒏 𝒔𝒐𝒖𝒓𝒄𝒆 𝒑𝒓𝒐𝒋𝒆𝒄𝒕. 
 - 𝚂𝙾𝚄𝚁𝙲𝙴 𝙲𝙾𝙳𝙴 - <a href="https://t.me/cinemahubmoviesS"> 𝗖𝗟𝗜𝗖𝗞 𝗛𝗘𝗥𝗘 </a>
 
 𝑷𝑶𝑾𝑬𝑹𝑬𝑫 𝑩𝒀:
-<a href="https://t.me/joinchat/FYBCIcMfr0AyOTFl"> 𝑼𝑵𝑰𝑽𝑬𝑹𝑺𝑨𝑳 𝑴𝑶𝑽𝑰𝑬𝑺 </a>"""
+<a href="https://t.me/Movies_World02">𝗠𝗼𝘃𝗶𝗲𝘀 𝗪𝗼𝗿𝗹𝗱 </a>"""
     WHOIS_TXT ="""<b>WHOIS MODULE</b>
 Note:- Give a user details
 
@@ -97,7 +97,7 @@ t𝗋𝗒 𝗍𝗁𝗂𝗌 𝖮𝗎𝗍:
 
     BUTTON_TXT = """Help: <b>Buttons</b>
 
-- tgmoviebot support both url and alert inline buttons.
+- ᗩᒍᗩ᙭ support both url and alert inline buttons.
 
 <b>NOTE:</b>
 1. Telegram will not allows you to send buttons without any content, so content is mandatory.
