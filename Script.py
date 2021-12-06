@@ -8,8 +8,7 @@ class script(object):
     HELP_TXT = """𝙷𝙴𝚈 {}
 𝘏𝘦𝘳𝘦 𝘐𝘴 𝘛𝘩𝘦 𝘏𝘦𝘭𝘱 𝘍𝘰𝘳 𝘔𝘺 𝘊𝘰𝘮𝘮𝘢𝘯𝘥𝘴."""
     ABOUT_TXT = """
-𝗧𝗛𝗜𝗦 𝗦𝗔𝗠𝗔𝗡𝗧𝗛𝗔 𝗔𝗕𝗢𝗨𝗧 𝗠𝗦𝗚
-❥︎❥︎❥︎❥︎❥︎❥︎❥︎❥︎❥︎❥︎❥︎❥︎❥︎❥︎❥︎❥︎❥︎❥︎❥︎❥︎❥︎❥︎❥︎❥︎
+<b>About ᗩᒍᗩ᙭.!</b>
 ╔══════════════════❍
 ║╭━━━━━━━━━━━━━━━➣ 
 ║✮ 𝙼𝚈 𝙽𝙰𝙼𝙴 ➛ <a href="http://t.me/@Devil0Bot_Bot"> ᗩᒍᗩ᙭</a>
@@ -33,7 +32,7 @@ Note:- Give a user details
 •/whois :-give a user full details"""
     ALIVE_TXT ="""<b>ALIVE MODULE</b>
 • /alive - check me alive or dead🤧
-Just for a rasam😂"""
+Just Check"""
     SONG_TXT ="""<b>SONG MODULE</b>
 Song Download
 Song Download Module, For Those Who Love Music
@@ -105,7 +104,7 @@ t𝗋𝗒 𝗍𝗁𝗂𝗌 𝖮𝗎𝗍:
 3. Buttons should be properly parsed as markdown format.
 
 <b>URL buttons:</b>
-<code>[Button Text](buttonurl:https://t.me/josprojects)</code>
+<code>[Button Text](buttonurl:https://t.me/BKC0001)</code>
 
 <b>Alert buttons:</b>
 <code>[Button Text](buttonalert:This is an alert message)</code>"""
