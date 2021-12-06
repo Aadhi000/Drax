@@ -19,7 +19,7 @@ from plugins.helper_functions.last_online_hlpr import last_online
 async def who_is(client, message):
     """ extract user information """
     status_message = await message.reply_text(
-        "🤔🧐🧐😑"
+        "𝐅𝐞𝐭𝐜𝐡𝐢𝐧𝐠 𝐈𝐧𝐟𝐨.."
     )
     from_user = None
     from_user_id, _ = extract_user(message)
@@ -37,17 +37,17 @@ async def who_is(client, message):
     username = from_user.username or ""
     
     message_out_str = (
-        "<b>Name:</b> "
+        "<b>✮ 𝗡𝗮𝗺𝗲:</b> "
         f"<a href='tg://user?id={from_user.id}'>{first_name}</a>\n"
-        f"<b>Suffix:</b> {last_name}\n"
-        f"<b>Username:</b> @{username}\n"
-        f"<b>User ID:</b> <code>{from_user.id}</code>\n"
-        f"<b>User Link:</b> {from_user.mention}\n" if from_user.username else ""
-        f"<b>Is Deleted:</b> True\n" if from_user.is_deleted else ""
-        f"<b>Is Verified:</b> True" if from_user.is_verified else ""
-        f"<b>Is Scam:</b> True" if from_user.is_scam else ""
-        # f"<b>Is Fake:</b> True" if from_user.is_fake else ""
-        f"<b>Last Seen:</b> <code>{last_online(from_user)}</code>\n\n"
+        f"<b>✮ 𝗦𝘂𝗳𝗳𝗶𝘅:</b> {last_name}\n"
+        f"<b>✮ 𝗨𝘀𝗲𝗿𝗻𝗮𝗺𝗲:</b> @{username}\n"
+        f"<b>✮ 𝗨𝘀𝗲𝗿 𝗜𝗗:</b> <code>{from_user.id}</code>\n"
+        f"<b>✮ 𝗨𝘀𝗲𝗿 𝗟𝗶𝗻𝗸:</b> {from_user.mention}\n" if from_user.username else ""
+        f"<b>✮ 𝗜𝘀 𝗗𝗲𝗹𝗲𝘁𝗲𝗱:</b> True\n" if from_user.is_deleted else ""
+        f"<b>✮ 𝗜𝘀 𝗩𝗲𝗿𝗶𝗳𝗶𝗲𝗱:</b> True" if from_user.is_verified else ""
+        f"<b>✮ 𝗜𝘀 𝗦𝗰𝗮𝗺:</b> True" if from_user.is_scam else ""
+        # f"<b>✮ 𝗜𝘀 𝗙𝗮𝗸𝗲:</b> True" if from_user.is_fake else ""
+        f"<b>✮ 𝗟𝗮𝘀𝘁 𝗦𝗲𝗲𝗻:</b> <code>{last_online(from_user)}</code>\n\n"
     )
 
     if message.chat.type in ["supergroup", "channel"]:
