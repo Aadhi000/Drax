@@ -125,16 +125,16 @@ async def next_page(bot, query):
         off_set = offset - 10
     if n_offset == 0:
         btn.append(
-            [InlineKeyboardButton("« BACK", callback_data=f"next_{req}_{key}_{off_set}"), InlineKeyboardButton(f"📃 Pages {round(int(offset)/10)+1} / {round(total/10)}", callback_data="pages")]
+            [InlineKeyboardButton("« 𝙱𝚊𝚌𝚔", callback_data=f"next_{req}_{key}_{off_set}"), InlineKeyboardButton(f"📃 Pages {round(int(offset)/10)+1} / {round(total/10)}", callback_data="pages")]
         )
     elif off_set is None:
-        btn.append([InlineKeyboardButton(f"🗓 {round(int(offset)/10)+1} / {round(total/10)}", callback_data="pages"), InlineKeyboardButton("NEXT »", callback_data=f"next_{req}_{key}_{n_offset}")])
+        btn.append([InlineKeyboardButton(f"𝙿𝚊𝚐𝚎 {round(int(offset)/10)+1} / {round(total/10)}", callback_data="pages"), InlineKeyboardButton("NEXT »", callback_data=f"next_{req}_{key}_{n_offset}")])
     else:
         btn.append(
             [
-                InlineKeyboardButton("« BACK", callback_data=f"next_{req}_{key}_{off_set}"),
-                InlineKeyboardButton(f"🗓 {round(int(offset)/10)+1} / {round(total/10)}", callback_data="pages"),
-                InlineKeyboardButton("NEXT »", callback_data=f"next_{req}_{key}_{n_offset}")
+                InlineKeyboardButton("« 𝙱𝚊𝚌𝚔", callback_data=f"next_{req}_{key}_{off_set}"),
+                InlineKeyboardButton(f"𝙿𝚊𝚐𝚎 {round(int(offset)/10)+1} / {round(total/10)}", callback_data="pages"),
+                InlineKeyboardButton("𝙽𝚎𝚡𝚝 »", callback_data=f"next_{req}_{key}_{n_offset}")
             ],
         )
     try:
@@ -149,20 +149,20 @@ async def next_page(bot, query):
 async def advantage_spoll_choker(bot, query):
     _, user, movie_ = query.data.split('#')
     if int(user) != 0 and query.from_user.id != int(user):
-        return await query.answer(f"⚠️ Hey, {query.from_user.first_name}! Search Your Own File, Don't Click Others Results 😬", show_alert=True)
+        return await query.answer(f"😁 𝗛𝗲𝘆 𝗙𝗿𝗶𝗲𝗻𝗱,𝗣𝗹𝗲𝗮𝘀𝗲 𝗦𝗲𝗮𝗿𝗰𝗵 𝗬𝗼𝘂𝗿𝘀𝗲𝗹𝗳.", show_alert=True)
     if movie_  == "close_spellcheck":
         return await query.message.delete()
     movies = SPELL_CHECK.get(query.message.reply_to_message.message_id)
     if not movies:
-        return await query.answer(f"⚠️ Hey, {query.from_user.first_name}! You are clicking on an old button which is expired ⚠️", show_alert=True)
+        return await query.answer(f"Link Expired Kindly Please Search Again 🙂", show_alert=True)
     movie = movies[(int(movie_))]
-    await query.answer('🔎 Checking for Movie in My database... 🔎')
+    await query.answer('𝗖𝗵𝗲𝗰𝗸𝗶𝗻𝗴 𝗬𝗼𝘂𝗿 𝗠𝗼𝘃𝗶𝗲....')
     files, offset, total_results = await get_search_results(movie, offset=0, filter=True)
     if files:
         k = (movie, files, offset, total_results)
         await auto_filter(bot, query, k)
     else:
-        k = await query.message.edit(f'⚠️ Hey, {query.from_user.first_name}! This Movie Not Found In My DataBase ⚠️')
+        k = await query.message.edit(f'𝚃𝙷𝙸𝚂 𝙼𝙾𝚅𝙸𝙴 I𝚂 𝙽𝙾𝚃 𝚈𝙴𝚃 𝚁𝙴𝙻𝙴𝙰𝚂𝙴𝙳 𝙾𝚁 𝙰𝙳𝙳𝙴𝙳 𝚃𝙾 𝙳𝙰𝚃𝚂𝙱𝙰𝚂𝙴💌')
         await asyncio.sleep(10)
         await k.delete()
     
@@ -228,7 +228,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 except:
                     pass
             else:
-                await query.answer(f"⚠️ Hey, {query.from_user.first_name}! Thats not for you!! ⚠️",show_alert=True)
+                await query.answer(f"Hey, {query.from_user.first_name}! Thats not for you!!",show_alert=True)
 
 
     elif "groupcb" in query.data:
@@ -440,8 +440,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('᯽ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᯽', url='http://t.me/dqautofl_bot?startgroup=true')
             ],[
-            InlineKeyboardButton('ɢʀᴏᴜᴘ ❀', url='https://t.me/cinemahubmoviesS'),
-            InlineKeyboardButton('ᴄʜᴀɴɴᴀʟ ❀', url='https://t.me/joinchat/FYBCIcMfr0AyOTFl')
+            InlineKeyboardButton('ɢʀᴏᴜᴘ ❀', url='https://t.me/Movies_World02'),
+            InlineKeyboardButton('ᴄʜᴀɴɴᴀʟ ❀', url='https://t.me/Minnal_Murali2021HD')
             ],[
             InlineKeyboardButton('ʜᴇʟᴘ ✪', callback_data='help'),
             InlineKeyboardButton('ᴀʙᴏᴜᴛ ✪', callback_data='about')
@@ -843,11 +843,11 @@ async def auto_filter(client, msg, spoll=False):
         BUTTONS[key] = search
         req = message.from_user.id if message.from_user else 0
         btn.append(
-            [InlineKeyboardButton(text=f"🗓 1/{round(int(total_results)/10)}",callback_data="pages"), InlineKeyboardButton(text="NEXT »",callback_data=f"next_{req}_{key}_{offset}")]
+            [InlineKeyboardButton(text=f"🌹𝙿𝚊𝚐𝚎 1/{round(int(total_results)/10)}",callback_data="pages"), InlineKeyboardButton(text="NEXT »",callback_data=f"next_{req}_{key}_{offset}")]
         )
     else:
         btn.append(
-            [InlineKeyboardButton(text="🗓 1/1 🗓",callback_data="pages")]
+            [InlineKeyboardButton(text="🌹 𝙿𝚊𝚐𝚎 1/1 ",callback_data="pages")]
         )
     imdb = await get_poster(search, file=(files[0]).file_name) if IMDB else None
     if imdb:
@@ -950,7 +950,7 @@ async def advantage_spell_chok(msg):
         hmm = InlineKeyboardMarkup(
         [
             [
-                 InlineKeyboardButton("🕵️‍♂️ sᴇᴀʀᴄʜ ᴏɴ ɢᴏᴏɢʟᴇ 🕵️‍♂️", url=f"https://google.com/search?q={search}")
+                 InlineKeyboardButton("🕵️‍♂ sᴇᴀʀᴄʜ ᴏɴ ɢᴏᴏɢʟᴇ 🕵️‍♂", url=f"https://google.com/search?q={search}")
             ]
         ]
     )
