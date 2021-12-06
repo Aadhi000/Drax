@@ -17,7 +17,7 @@ async def jsonify(_, message):
             [
                 [
                     InlineKeyboardButton(
-                        text="ᴄʟᴏsᴇ",
+                        text="𝗖𝗹𝗼𝘀𝗲",
                         callback_data="close_data"
                     )
                 ]
@@ -31,7 +31,7 @@ async def jsonify(_, message):
             [
                 [
                     InlineKeyboardButton(
-                        text="ᴄʟᴏsᴇ",
+                        text="𝗖𝗹𝗼𝘀𝗲",
                         callback_data="close_data"
                     )
                 ]
