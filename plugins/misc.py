@@ -16,34 +16,34 @@ async def showid(client, message):
         username = message.from_user.username
         dc_id = message.from_user.dc_id or ""
         await message.reply_text(
-            f"<b>➲ First Name:</b> {first}\n<b>➲ Last Name:</b> {last}\n<b>➲ Username:</b> {username}\n<b>➲ Telegram ID:</b> <code>{user_id}</code>\n<b>➲ Data Centre:</b> <code>{dc_id}</code>",
+            f"<b>➛ First Name:</b> {first}\n<b>➛ Last Name:</b> {last}\n<b>➛ Username:</b> {username}\n<b>➛ Telegram ID:</b> <code>{user_id}</code>\n<b>➛ Data Centre:</b> <code>{dc_id}</code>",
             quote=True
         )
 
     elif chat_type in ["group", "supergroup"]:
         _id = ""
         _id += (
-            "<b>➲ Chat ID</b>: "
+            "<b>➛ Chat ID</b>: "
             f"<code>{message.chat.id}</code>\n"
         )
         if message.reply_to_message:
             _id += (
-                "<b>➲ User ID</b>: "
+                "<b>➛ User ID</b>: "
                 f"<code>{message.from_user.id}</code>\n"
-                "<b>➲ Replied User ID</b>: "
+                "<b>➛ Replied User ID</b>: "
                 f"<code>{message.reply_to_message.from_user.id}</code>\n"
-                "<b>First name</b>: {message.from_user.first_name}"
-                "<b>Last name</b>: {message.from_user.last_name}"
-                "<b>Username</b>: {message.from_user.username}"
-                "<b>Telegram id</b>: <code>{message.from_user.id}</code>"
-                "<b>Phone number</b>: {message.from_user.phone_number}"
-                "<b>Language</b>: {message.from_user.language_code}"
-                "<b>Status</b>: {message.from_user.status}"
+                "<b>➛ First name</b>: {message.from_user.first_name}"
+                "<b>➛ Last name</b>: {message.from_user.last_name}"
+                "<b>➛ Username</b>: {message.from_user.username}"
+                "<b>➛ Telegram id</b>: <code>{message.from_user.id}</code>"
+                "<b>➛ Phone number</b>: {message.from_user.phone_number}"
+                "<b>➛ Language</b>: {message.from_user.language_code}"
+                "<b>➛ Status</b>: {message.from_user.status}"
             )
             file_info = get_file_id(message.reply_to_message)
         else:
             _id += (
-                "<b>➲ User ID</b>: "
+                "<b>➛ User ID</b>: "
                 f"<code>{message.from_user.id}</code>\n"
             )
             file_info = get_file_id(message)
@@ -61,10 +61,10 @@ async def showid(client, message):
 async def who_is(client, message):
     # https://github.com/SpEcHiDe/PyroGramBot/blob/master/pyrobot/plugins/admemes/whois.py#L19
     status_message = await message.reply_text(
-        "`Fetching user info...`"
+        "`𝗦𝗲𝗮𝗿𝗰𝗵𝗶𝗻𝗴 𝗨𝘀𝗲𝗿...`"
     )
     await status_message.edit(
-        "`Processing user info...`"
+        "`𝗔𝗰𝗰𝗲𝘀𝘀𝗶𝗻𝗴 𝗜𝗻𝗳𝗼𝗿𝗺𝗮𝘁𝗶𝗼𝗻...`"
     )
     from_user = None
     from_user_id, _ = extract_user(message)
@@ -77,15 +77,15 @@ async def who_is(client, message):
         await status_message.edit("no valid user_id / message specified")
     else:
         message_out_str = ""
-        message_out_str += f"<b>➲First Name:</b> {from_user.first_name}\n"
+        message_out_str += f"<b>➾First Name:</b> {from_user.first_name}\n"
         last_name = from_user.last_name or "<b>None</b>"
-        message_out_str += f"<b>➲Last Name:</b> {last_name}\n"
-        message_out_str += f"<b>➲Telegram ID:</b> <code>{from_user.id}</code>\n"
+        message_out_str += f"<b>➾Last Name:</b> {last_name}\n"
+        message_out_str += f"<b>➾Telegram ID:</b> <code>{from_user.id}</code>\n"
         username = from_user.username or "<b>None</b>"
         dc_id = from_user.dc_id or "[User Doesnt Have A Valid DP]"
-        message_out_str += f"<b>➲Data Centre:</b> <code>{dc_id}</code>\n"
-        message_out_str += f"<b>➲User Name:</b> @{username}\n"
-        message_out_str += f"<b>➲User 𝖫𝗂𝗇𝗄:</b> <a href='tg://user?id={from_user.id}'><b>Click Here</b></a>\n"
+        message_out_str += f"<b>➾Data Centre:</b> <code>{dc_id}</code>\n"
+        message_out_str += f"<b>➾User Name:</b> @{username}\n"
+        message_out_str += f"<b>➾User 𝖫𝗂𝗇𝗄:</b> <a href='tg://user?id={from_user.id}'><b>Click Here</b></a>\n"
         if message.chat.type in (("supergroup", "channel")):
             try:
                 chat_member_p = await message.chat.get_member(from_user.id)
@@ -93,7 +93,7 @@ async def who_is(client, message):
                     chat_member_p.joined_date or time.time()
                 ).strftime("%Y.%m.%d %H:%M:%S")
                 message_out_str += (
-                    "<b>➲Joined this Chat on:</b> <code>"
+                    "<b>➛Joined this Chat on:</b> <code>"
                     f"{joined_date}"
                     "</code>\n"
                 )
