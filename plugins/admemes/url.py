@@ -12,14 +12,14 @@ GPLINKS_API = os.environ.get("GPLINKS_API", "008ccaedd6061ad1948838f410947603de9
 
 reply_markup = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton(text='sᴜᴘᴘᴏʀᴛᴇʀs', url='https://t.me/joinchat/FYBCIcMfr0AyOTFl')
+        InlineKeyboardButton(text='𝗖𝗵𝗮𝗻𝗻𝗲𝗹', url='https://t.me/Minnal_Murali2021HD')
         ]]
     )
 
 @Client.on_message(filters.command(["short"]) & filters.regex(r'https?://[^\s]+'))
 async def reply_shortens(bot, update):
     message = await update.reply_text(
-        text="`Analysing your link...`",
+        text="`𝗔𝗻𝗮𝗹𝘆𝘀𝗶𝗻𝗴 𝗬𝗼𝘂𝗿 𝗟𝗶𝗻𝗸...`",
         disable_web_page_preview=True,
         quote=True
     )
@@ -52,7 +52,7 @@ async def inline_short(bot, update):
     )
 
 async def short(link):
-    shorten_urls = "**--Shorted URLs--**\n"
+    shorten_urls = "**--𝗦𝗵𝗼𝗿𝘁𝗲𝗱 𝗨𝗥𝗟--**\n"
     
     # Bit.ly shorten
     if BITLY_API:
@@ -175,7 +175,7 @@ async def short(link):
     
     # Send the text
     try:
-        shorten_urls += "\n\nmade by @DARKWEBLOAD 🔥"
+        shorten_urls += "\n\nMade By @BKC0001 🔥"
         return shorten_urls
     except Exception as error:
         return error
