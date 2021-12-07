@@ -48,7 +48,7 @@ async def telegraph(client, message):
                 ],[
                 [InlineKeyboardButton(text="ᴄʟᴏsᴇ", callback_data="close_data")]
             ]
-        )
+        ]
     )
     finally:
         os.remove(download_location)
