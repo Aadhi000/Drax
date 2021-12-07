@@ -1,24 +1,24 @@
 class script(object):
-    START_TXT = """𝙷𝙴𝚈 {},
+    START_TXT = """𝙷𝙴𝚈 {},✨
 
-𝙸𝙰𝙼 𝙰 𝚂𝙸𝙼𝙿𝙻𝙴 𝙰𝚄𝚃𝙾 𝙵𝙸𝙻𝚃𝙴𝚁 + 𝙼𝙾𝚅𝙸𝙴 𝚂𝙴𝙰𝚁𝙲𝙷 + 𝙼𝙰𝙽𝚄𝙴𝙻 𝙵𝙸𝙻𝚃𝙴𝚁 𝙱𝙾𝚃. 𝙸 𝙲𝙰𝙽 𝙿𝚁𝙾𝚅𝙸𝙳𝙴 𝙼𝙾𝚅𝙸𝙴𝚂 𝙸𝙽 𝚃𝙴𝙻𝙴𝙶𝚁𝙰𝙼 𝙶𝚁𝙾𝚄𝙿𝚂. 𝙹𝚄𝚂𝚃 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 𝙰𝙽𝙳 𝙴𝙽𝙹𝙾𝚈 🥰🌹
+𝙸𝙰𝙼 𝙰 𝚂𝙸𝙼𝙿𝙻𝙴 𝙰𝚄𝚃𝙾 𝙵𝙸𝙻𝚃𝙴𝚁 + 𝙼𝙾𝚅𝙸𝙴 𝚂𝙴𝙰𝚁𝙲𝙷 + 𝙼𝙰𝙽𝚄𝙴𝙻 𝙵𝙸𝙻𝚃𝙴𝚁 𝙱𝙾𝚃. 𝙸 𝙲𝙰𝙽 𝙿𝚁𝙾𝚅𝙸𝙳𝙴 𝙼𝙾𝚅𝙸𝙴𝚂 𝙸𝙽 𝚃𝙴𝙻𝙴𝙶𝚁𝙰𝙼 𝙶𝚁𝙾𝚄𝙿𝚂. 𝙹𝚄𝚂𝚃 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 𝙰𝙽𝙳 𝙴𝙽𝙹𝙾𝚈♥️🌹
 
 𝐌𝐚𝐢𝐧𝐭𝐚𝐢𝐧𝐞𝐝 𝐁𝐲:<a href="https://t.me/BKC0001">𝐀𝐚𝐝𝐡𝐢</a>
 """
     HELP_TXT = """𝙷𝙴𝚈 {}
 𝘏𝘦𝘳𝘦 𝘐𝘴 𝘛𝘩𝘦 𝘏𝘦𝘭𝘱 𝘍𝘰𝘳 𝘔𝘺 𝘊𝘰𝘮𝘮𝘢𝘯𝘥𝘴."""
     ABOUT_TXT = """
-<b>About ᗩᒍᗩ᙭.!</b>
+<b>About 𝕯𝖆𝖗𝖝.!</b>
 ╔══════════════════❍
 ║╭━━━━━━━━━━━━━━━➣ 
- ✮ 𝙼𝚈 𝙽𝙰𝙼𝙴 ➛ <a href="http://t.me/@Devil0Bot_Bot"> ᗩᒍᗩ᙭</a>
- ✮ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁 ➛ <a href="https://t.me/@BKC0001">𝙰𝙰𝙳𝙷𝙸</a>
- ✮ 𝙲𝚁𝙴𝙳𝙸𝚃𝚂 ➛ <a href="https://t.me/@BKC0001">𝙰𝙰𝙳𝙷𝙸</a> 
+ ✮ 𝙼𝚈 𝙽𝙰𝙼𝙴 ➛ <a href="https://t.me/DraxV3_Bot"> 𝕯𝖗𝖆𝖝</a>
+ ✮ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁 ➛ <a href="https://t.me/BKC0001">𝙰𝙰𝙳𝙷𝙸</a>
+ ✮ 𝙲𝚁𝙴𝙳𝙸𝚃𝚂 ➛ <a href="https://t.me/BKC0001">𝙰𝙰𝙳𝙷𝙸</a> 
  ✮ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴 ➛ ᴘʏʀᴏɢʀᴀᴍ
  ✮ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈 ➛ ᴘʏᴛʜᴏɴ 3
  ✮ 𝙲𝙻𝙾𝙽𝙴𝙳 𝙵𝚁𝙾𝙼 ➛ ᴍᴏɴɢᴏ ᴅʙ
  ✮ 𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴 ➛  ʜᴇʀᴏᴋᴜ
- ✮ 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂 ➛ ᴠ1.0.1 [ ʙᴇᴛᴀ ]
+ ✮ 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂 ➛ ᴠ1.0.2 [ ʙᴇᴛᴀ ]
 ║╰━━━━━━━━━━━━━━━➣ ╚══════════════════❍"""
     SOURCE_TXT = """<b>NOTE:</b>
 - 𝑰 𝒂𝒎 𝒂𝒏 𝒐𝒑𝒆𝒏 𝒔𝒐𝒖𝒓𝒄𝒆 𝒑𝒓𝒐𝒋𝒆𝒄𝒕. 
@@ -29,10 +29,10 @@ class script(object):
     WHOIS_TXT ="""<b>WHOIS MODULE</b>
 Note:- Give a user details
 
-•/whois :-give a user full details"""
+›› /whois :-give a user full details"""
     ALIVE_TXT ="""<b>ALIVE MODULE</b>
-• /alive - check me alive or dead
-ചുമ്മാ ഒന്ന് നോക്ക്"""
+››  /alive - check me alive or dead
+ചുമ്മാ നോക്കിയെക്ക് ചിലപ്പോൾ ചത്തെങ്കിലോ.🤭"""
     SONG_TXT ="""<b>SONG MODULE</b>
 Song Download
 Song Download Module, For Those Who Love Music
@@ -96,7 +96,7 @@ t𝗋𝗒 𝗍𝗁𝗂𝗌 𝖮𝗎𝗍:
 
     BUTTON_TXT = """Help: <b>Buttons</b>
 
-- ᗩᒍᗩ᙭ support both url and alert inline buttons.
+- 𝕯𝖗𝖆𝖝 support both url and alert inline buttons.
 
 <b>NOTE:</b>
 1. Telegram will not allows you to send buttons without any content, so content is mandatory.
@@ -251,7 +251,7 @@ This module only works for my admins
 ✮ /channel › To Get The List Of Total Connected Channels.
 ✮ /broadcast › To Broadcast A Message To All Users."""
 
-    STATUS_TXT = """<b>✮✮ Total Files:</b> <code>{}</code>
+    STATUS_TXT = """<b>✮ Total Files:</b> <code>{}</code>
 <b>✮ Total Users:</b> <code>{}</code>
 <b>✮ Total Chats:</b> <code>{}</code>
 <b>✮ Used Storage:</b> <code>{}</code> MB
