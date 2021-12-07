@@ -49,14 +49,14 @@ def a(client, message):
             #     m.edit("Exceeded 30mins cap")
             #     return
 
-            performer = f"[ʟᴀʟʟᴜs ᴍᴜsɪᴄ]" 
+            performer = f"[𝙳𝚁𝙰𝚇 𝙼𝚄𝚂𝙸𝙲𝚂]" 
             thumb_name = f'thumb{message.message_id}.jpg'
             thumb = requests.get(thumbnail, allow_redirects=True)
             open(thumb_name, 'wb').write(thumb.content)
 
         except Exception as e:
             print(e)
-            m.edit('**𝐈 𝐚𝐦 𝐧𝐨𝐭 𝐟𝐨𝐮𝐧𝐝 𝐫𝐞𝐬𝐮𝐥𝐭 𝐢𝐧 𝐲𝐨𝐮𝐫 𝐫𝐞𝐪𝐮𝐞𝐬𝐭💔. 𝐏𝐥𝐞𝐚𝐬𝐞 𝐭𝐫𝐲 𝐚𝐧𝐨𝐭𝐡𝐞𝐫 𝐬𝐨𝐧𝐠 𝐨𝐫 𝐮𝐬𝐞 𝐜𝐨𝐫𝐫𝐞𝐜𝐭 𝐬𝐩𝐞𝐥𝐥𝐢𝐧𝐠💕!**')
+            m.edit('**𝐍𝐨𝐭 𝐅𝐨𝐮𝐧𝐝 𝐀𝐧𝐲 𝐑𝐞𝐬𝐮𝐥𝐭.. 𝐏𝐥𝐞𝐚𝐬𝐞 𝐭𝐫𝐲 𝐚𝐧𝐨𝐭𝐡𝐞𝐫 𝐬𝐨𝐧𝐠 𝐨𝐫 𝐮𝐬𝐞 𝐜𝐨𝐫𝐫𝐞𝐜𝐭 𝐬𝐩𝐞𝐥𝐥𝐢𝐧𝐠💕!**')
             return
     except Exception as e:
         m.edit(
@@ -64,7 +64,7 @@ def a(client, message):
         )
         print(str(e))
         return
-    m.edit("`𝐔𝐩𝐥𝐨𝐚𝐝𝐢𝐧𝐠... 𝐖𝐚𝐢𝐭 𝐁𝐫𝐨..`")
+    m.edit("`𝐔𝐩𝐥𝐨𝐚𝐝𝐢𝐧𝐠....𝐖𝐚𝐢𝐭.!`")
     try:
         with youtube_dl.YoutubeDL(ydl_opts) as ydl:
             info_dict = ydl.extract_info(link, download=False)
