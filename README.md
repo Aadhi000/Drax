@@ -1,28 +1,28 @@
 # 𝕯𝖗𝖆𝖝
-Very Sempil Bot Auto Filter bot
-##[![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=Hey+Bro!;My+Name+Is+𝕯𝖗𝖆𝖝!;A+simple+autofilter+Bot!;Auto+Filter+With+Double+Button!;Start+Message+With+Pic!;And+All+Features!)
+Very Semple Auto Filter V3 Bot
+##[![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=Hey+Bro!;My+Name+Is+𝕯𝖗𝖆𝖝!;A+Simple+AutoFilter+Bot!;Auto+Filter+With+Double+Button!;Start+Message+With+Pic!;And+All+Other+Features!)
 </p>
-# ››𝐂𝐋𝐈𝐂𝐊 𝐁𝐄𝐋𝐎𝐖 𝐈𝐌𝐀𝐆𝐄 𝐓𝐎 𝐃𝐄𝐏𝐋𝐎𝐘.✮
+ ✮𝐂𝐋𝐈𝐂𝐊 𝐁𝐄𝐋𝐎𝐖 𝐈𝐌𝐀𝐆𝐄 𝐓𝐎 𝐃𝐄𝐏𝐋𝐎𝐘.✮
 
 
 [![Deploy](https://telegra.ph/file/3a041b9aa85061bddb2e9.jpg)](https://heroku.com/deploy?template=https://github.com/DARK-WEBLOAD/SAMANTHA-AUTO-FILTER/repo)
 
-- [x] Auto Filter
-- [x] Manuel Filter
-- [x] IMDB
-- [x] Admin Commands
-- [x] Broadcast
-- [x] Index
-- [x] IMDB search
-- [x] Fun mode
-- [x] Inline Search
-- [x] Random pics
-- [x] ids and User info 
-- [x] Stats, Users, Chats, Ban, Unban, Leave, Disable, Channel
+- [✮] Auto Filter
+- [✮] Manuel Filter
+- [✮] IMDB
+- [✮] Admin Commands
+- [✮] Broadcast
+- [✮] Index
+- [✮] IMDB search
+- [✮] Fun mode
+- [✮] Inline Search
+- [✮] Random pics
+- [✮] ids and User info 
+- [✮] Stats, Users, Chats, Ban, Unban, Leave, Disable, Channel
 
 
 
-<h3 align="center">ℂ𝕆ℕ𝕋𝔸ℂ𝕋<img align="center" src="https://github.com/PANDITHAN/PANDITHAN/blob/main/assets/Handshake.gif" height="33px" /></h3>
+<h3 align="center">ℂ𝕆ℕ𝕋𝔸ℂ𝕋<img align="center" src="https://github.com/PANDITHAN/Aadhi000/blob/main/assets/Handshake.gif" height="33px" /></h3>
 <p align="center">
 <a href="https://t.me/BKC0001"><img alt="Telegram" src="https://img.shields.io/badge/𝙳𝙴𝚅 1-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"/></a>
 <a href="https://t.me/BKC0001"><img alt="Telegram" src="https://img.shields.io/badge/𝙳𝙴𝚅 2-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"/></a>
@@ -108,15 +108,14 @@ logger - Get log file
 
 ## Thanks to 
 * [Pyrogram](https://github.com/pyrogram/pyrogram)
-* Original [Repo](https://github.com/DARK-WEBLOAD/SAMANTHA-AUTO-FILTER)
+* Original [Repo](https://github.com/Aadhi000/Drax)
 
 
 ## Support
-Contact Me On [Telegram](https://t.me/DARKWEBLOAD)
+Contact Me On [Telegram](https://t.me/BKC0001)
 
-[Update Channel](https://t.me/joinchat/FYBCIcMfr0AyOTFl)
+[Update Channel](https://t.me/Minnal_Murali2021HD)
 
 ## License
 Code released under [The GNU General Public License](LICENSE).
-## credit 🤠
-https://t.me/BKC0001
+## Credit 🤠[Aadhi](https://t.me/BKC0001)
