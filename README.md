@@ -1,11 +1,11 @@
-# SAMANTHA_BOT
+# 𝕯𝖗𝖆𝖝
 Very Sempil Bot Auto Filter bot
-##[![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=welcome+To+𝑺𝑨𝑴𝑨𝑵𝑻𝑯𝑨-𝑩𝑶𝑻!;created+by+𝑻𝑬𝑨𝑴+𝑺𝑨𝑴𝑨𝑵𝑻𝑯𝑨!;A+simple+autofilter+Bot!;Auto+filter+with+double+button!;start+message+with+pic!;and+all+futures!)
+##[![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=Hey+Bro!;My+Name+Is+𝕯𝖗𝖆𝖝!;A+simple+autofilter+Bot!;Auto+Filter+With+Double+Button!;Start+Message+With+Pic!;And+All+Features!)
 </p>
-# 𝐂𝐋𝐈𝐂𝐊 𝐁𝐄𝐋𝐎𝐖 𝐈𝐌𝐀𝐆𝐄 𝐓𝐎 𝐃𝐄𝐏𝐋𝐎𝐘👇👇👇
+# ››𝐂𝐋𝐈𝐂𝐊 𝐁𝐄𝐋𝐎𝐖 𝐈𝐌𝐀𝐆𝐄 𝐓𝐎 𝐃𝐄𝐏𝐋𝐎𝐘.✮
 
 
-[![Deploy](https://telegra.ph/file/e7c5e5cba1db946d460bf.jpg)](https://heroku.com/deploy?template=https://github.com/DARK-WEBLOAD/SAMANTHA-AUTO-FILTER/repo)
+[![Deploy](https://telegra.ph/file/3a041b9aa85061bddb2e9.jpg)](https://heroku.com/deploy?template=https://github.com/DARK-WEBLOAD/SAMANTHA-AUTO-FILTER/repo)
 
 - [x] Auto Filter
 - [x] Manuel Filter
