@@ -17,7 +17,7 @@ async def left(client,message):
                                 [
                                     [
                                         InlineKeyboardButton(
-                                            "language codes", url="https://cloud.google.com/translate/docs/languages"
+                                            "✮ 𝐉𝐨𝐢𝐧 𝐆𝐫𝐨𝐮𝐩 ✮", url="https://t.me/Movies_World02"
                                         )                                 
                                     ],
                                 ]
@@ -36,5 +36,5 @@ async def left(client,message):
 		except :
 			print("error")
 	else:
-			 ms = await message.reply_text("You can Use This Command by using reply to message")
+			 ms = await message.reply_text("𝐑𝐞𝐩𝐥𝐲 𝐓𝐨 𝐓𝐡𝐞 𝐓𝐞𝐱𝐭 𝐓𝐡𝐚𝐭 𝐘𝐨𝐮 𝐖𝐚𝐧𝐭 𝐓𝐨 𝐓𝐫𝐚𝐧𝐬𝐥𝐚𝐭𝐞 😊")
 			 await ms.delete()
