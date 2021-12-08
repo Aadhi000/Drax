@@ -4,7 +4,7 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, CallbackQ
 from .list import list
 from database.gtrans_mdb import find_one
 
-@Client.on_message(filters.command(["tr"]))
+@Client.on_message(filters.command(["translate"]))
 async def left(client,message):
 	if (message.reply_to_message):
 		try:
