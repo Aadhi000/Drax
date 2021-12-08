@@ -24,8 +24,8 @@ Very Sempil Bot Auto Filter bot
 
 <h3 align="center">ℂ𝕆ℕ𝕋𝔸ℂ𝕋<img align="center" src="https://github.com/PANDITHAN/PANDITHAN/blob/main/assets/Handshake.gif" height="33px" /></h3>
 <p align="center">
-<a href="https://t.me/DARKWEBLOAD"><img alt="Telegram" src="https://img.shields.io/badge/𝙳𝙴𝚅 1-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"/></a>
-<a href="https://t.me/MagnusTG"><img alt="Telegram" src="https://img.shields.io/badge/𝙳𝙴𝚅 2-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"/></a>
+<a href="https://t.me/BKC0001"><img alt="Telegram" src="https://img.shields.io/badge/𝙳𝙴𝚅 1-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"/></a>
+<a href="https://t.me/BKC0001"><img alt="Telegram" src="https://img.shields.io/badge/𝙳𝙴𝚅 2-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"/></a>
 </p>
 
 
@@ -119,4 +119,4 @@ Contact Me On [Telegram](https://t.me/DARKWEBLOAD)
 ## License
 Code released under [The GNU General Public License](LICENSE).
 ## credit 🤠
-https://t.me/DARKWEBLOAD
+https://t.me/BKC0001
