@@ -19,11 +19,7 @@ async def left(client,message):
                                         InlineKeyboardButton(
                                             "language codes", url="https://cloud.google.com/translate/docs/languages"
                                         )
-                                    ],
-				    [
-                                        InlineKeyboardButton(
-                                            "✗ close the translate ✗", callback_data="close_data"
-                                        )
+                                    ]
                                     ],
                                 ]
                             )
